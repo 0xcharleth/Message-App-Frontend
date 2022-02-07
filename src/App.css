@@ -1,0 +1,85 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+
+
+
+}
+
+.dataContainer {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  color: rgb(48, 48, 48);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: rgb(68, 68, 68);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-bottom: 32px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #7077af;
+
+
+  
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+background: linear-gradient(
+  to bottom right,  
+  #92b1cf, #f1a19d, 
+  #c2cc8a, #93b0c4, 
+  #d691ab, #d8dd98, 
+  #b18cd6, #d6948e);
+background-repeat: no-repeat;
+background-size: 1000% 1000%;
+animation: gradient 50s ease infinite;
+
+
+}
+
+
+@keyframes gradient { 
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+.textarea{
+  cursor: pointer;
+  margin-top: 400px;
+  padding: 8px;
+  border: 0;
+  border: none;
+  border-radius: 5px;
+  
+
+}
